@@ -1,0 +1,21 @@
+.container  {
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  width: 100%;
+}

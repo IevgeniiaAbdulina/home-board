@@ -1,0 +1,23 @@
+<h1>Dashboard home screen</h1>
+
+<div class="container">
+  <a routerLink="./weather" routerLinkActive="active">
+    <div class="component-item">
+      <h3>Current Weather</h3>
+      <div>
+        <p>30 C</p>
+      </div>
+    </div>
+  </a>
+
+  <a routerLink="./sensors" routerLinkActive="active">
+    <div class="component-item">
+      <h3>Sensors data</h3>
+    </div>
+  </a>
+</div>
+
+
+<div class="component-rout">
+  <router-outlet></router-outlet>
+</div>

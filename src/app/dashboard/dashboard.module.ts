@@ -15,9 +15,6 @@ import { WeatherModule } from './weather/weather.module';
     CommonModule,
     DashboardRoutingModule,
     WeatherModule
-  ],
-  exports: [
-    DashboardComponent
   ]
 })
 export class DashboardModule { }

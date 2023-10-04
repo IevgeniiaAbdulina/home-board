@@ -3,10 +3,9 @@
 <div class="container">
   <a routerLink="./weather" routerLinkActive="active">
     <div class="component-item">
+      <p>Wrocław</p>
       <h3>Current Weather</h3>
-      <div>
-        <p>30 C</p>
-      </div>
+      <p class="temp"><strong>{{ forecastToday | number: '1.0-0' }} °C</strong></p>
     </div>
   </a>
 

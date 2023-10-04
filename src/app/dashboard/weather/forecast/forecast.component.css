@@ -1,0 +1,11 @@
+.list-group {
+  list-style: none;
+  display: flex;
+  column-gap: 16px;
+  padding: 0;
+}
+
+.list-group > li {
+  padding: 0 16px;
+  border: 1px solid grey;
+}

@@ -1,0 +1,12 @@
+<h2>5-day forecast</h2>
+<ul class="list-group">
+  <li *ngFor="let forecast of forecast$ | async">
+    <p>{{ forecast.dateString | date: 'E'| uppercase }}</p>
+    <p><strong>{{ forecast.temp | number: '1.0-0' }} °C</strong></p>
+    <img src="https://openweathermap.org/img/wn/{{forecast.icon}}@2x.png" alt="weather icon">
+    <p>{{ forecast.weather_main }}</p>
+    <p> Feels like: {{ forecast.feels_like | number: '1.0-0' }}</p>
+    <p>Pressure: {{ forecast.pressure }} hPa</p>
+    <p>Humidity: {{ forecast.humidity }} %</p>
+  </li>
+</ul>
